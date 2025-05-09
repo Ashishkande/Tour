@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Majestic Taj Mahal Tour",
+      "city": "Agra",
+      "address": "Taj Mahal, Agra, Uttar Pradesh, India",
+      "distance": 5,
+      "photo": "https://example.com/photos/taj-mahal.jpg",
+      "desc": "Experience the beauty of the Taj Mahal and its rich history on this guided tour.",
+      "price": 2000,
+      "maxGroupSize": 25,
+      "reviews": ["64b8a7e8e8132e47e1245678", "64b8a7e8e8132e47e1245679"],
+      "featured": true
+    },
+    {
+      "title": "Serene Kerala Backwaters",
+      "city": "Alleppey",
+      "address": "Alleppey Backwaters, Kerala, India",
+      "distance": 12,
+      "photo": "https://images.pexels.com/photos/15308719/pexels-photo-15308719/free-photo-of-a-view-of-a-river-with-palm-trees-and-houses.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "desc": "Discover the peaceful backwaters of Kerala with a luxurious houseboat experience.",
+      "price": 5000,
+      "maxGroupSize": 15,
+      "reviews": ["64b8a7e8e8132e47e1245680"],
+      "featured": false
+    },
+    {
+      "title": "Royal Rajasthan Adventure",
+      "city": "Jaipur",
+      "address": "Amber Fort, Jaipur, Rajasthan, India",
+      "distance": 8,
+      "photo": "https://example.com/photos/amber-fort.jpg",
+      "desc": "Immerse yourself in Rajasthan's regal culture and visit iconic forts and palaces.",
+      "price": 3500,
+      "maxGroupSize": 30,
+      "reviews": [],
+      "featured": true
+    },
+    {
+      "title": "Goa Beach Bliss",
+      "city": "Goa",
+      "address": "Baga Beach, Goa, India",
+      "distance": 2,
+      "photo": "https://example.com/photos/goa-beach.jpg",
+      "desc": "Relax on the sandy beaches of Goa and enjoy vibrant nightlife and water sports.",
+      "price": 2500,
+      "maxGroupSize": 20,
+      "reviews": ["64b8a7e8e8132e47e1245681", "64b8a7e8e8132e47e1245682"],
+      "featured": false
+    },
+    {
+      "title": "Enchanting Himachal Trek",
+      "city": "Manali",
+      "address": "Rohtang Pass, Manali, Himachal Pradesh, India",
+      "distance": 15,
+      "photo": "https://example.com/photos/rohtang-pass.jpg",
+      "desc": "Explore the breathtaking landscapes of Himachal Pradesh on a guided trekking tour.",
+      "price": 3000,
+      "maxGroupSize": 10,
+      "reviews": [],
+      "featured": false
+    },
+    {
+      "title": "Spiritual Varanasi Getaway",
+      "city": "Varanasi",
+      "address": "Dashashwamedh Ghat, Varanasi, Uttar Pradesh, India",
+      "distance": 1,
+      "photo": "https://example.com/photos/varanasi-ghat.jpg",
+      "desc": "Dive into spirituality in Varanasi, the city of ghats and ancient traditions.",
+      "price": 1500,
+      "maxGroupSize": 20,
+      "reviews": ["64b8a7e8e8132e47e1245683"],
+      "featured": true
+    }
+  ]
+  

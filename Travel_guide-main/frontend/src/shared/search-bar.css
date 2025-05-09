@@ -1,0 +1,128 @@
+.search__bar {
+   padding: 1rem;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+   width: 100%;
+   max-width: 900px; /* Adjust based on your design */
+   margin: 0 auto;
+   background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+   position: relative;
+   z-index: 3;
+}
+
+.search__bar form {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
+}
+
+.form__group {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   border-right: 1px solid #ddd; /* Vertical divider between fields */
+   padding-right: 1rem;
+}
+
+.form__group:last-child {
+   border-right: none; /* Remove border for the last field */
+}
+
+.form__group span {
+   font-size: 1.2rem;
+   color: #ee6e6e; /* Icon color */
+}
+
+.form__group h6 {
+   margin-bottom: 0;
+   font-size: 0.9rem;
+   color: #555;
+}
+
+.form__group input {
+   border: none;
+   font-size: 0.9rem;
+   color: #333;
+   font-weight: 500;
+   background: transparent;
+   width: 100%;
+}
+
+.form__group input:focus {
+   outline: none;
+}
+
+.form__group input[type="date"]::-webkit-calendar-picker-indicator {
+   filter: invert(0.5); /* Style the date picker icon */
+}
+
+.search__button {
+   background: #f28c38; /* Orange color to match the image */
+   color: #fff;
+   border: none;
+   padding: 0.8rem 2rem;
+   border-radius: 5px;
+   font-size: 1rem;
+   font-weight: bold;
+   cursor: pointer;
+   text-transform: uppercase;
+   transition: background 0.3s ease;
+}
+
+.search__button:hover {
+   background: #e07b30; /* Slightly darker on hover */
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 992px) {
+   .search__bar {
+      width: 100%;
+      border-radius: 10px;
+   }
+
+   .search__bar form {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+   }
+
+   .form__group {
+      flex: 1 1 45%;
+      padding: 0.5rem;
+   }
+
+   .search__button {
+      flex: 1 1 100%;
+      padding: 0.8rem;
+   }
+}
+
+@media only screen and (max-width: 576px) {
+   .search__bar form {
+      flex-direction: column;
+   }
+
+   .form__group {
+      flex: 1 1 100%;
+      border-right: none;
+      padding: 0.5rem 0;
+   }
+
+   .form__group h6 {
+      font-size: 0.8rem;
+   }
+
+   .form__group input {
+      font-size: 0.8rem;
+   }
+
+   .form__group span {
+      font-size: 1rem;
+   }
+
+   .search__button {
+      padding: 0.6rem;
+      font-size: 0.9rem;
+   }
+}
