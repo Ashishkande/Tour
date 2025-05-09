@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build directories
+frontend/build/
+backend/build/
+
+# Environment variables
+.env
+frontend/.env
+backend/.env
+
+# Logs
+*.log
+frontend/npm-debug.log*
+backend/npm-debug.log*
+
+# Dependency directories for Yarn (if using Yarn)
+frontend/.yarn/
+backend/.yarn/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+package-lock.json
+frontend/package-lock.json
+backend/package-lock.json
+npm-debug.log
+
+# Coverage directory for testing
+coverage/
+
+# Temporary files
+*.swp
+*.swo
+node_modules/
+.env
